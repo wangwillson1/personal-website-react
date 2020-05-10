@@ -1,0 +1,30 @@
+.nav-container {
+    padding: 1rem 10rem;
+    background-color: #f8f9fa;
+    font-weight: 300;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+.resp {
+  display: none;
+}
+  
+@media (max-width: 1024px) {
+  .nav-container {
+    padding: 1rem 5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .nav-container {
+    padding: 1rem 2rem;
+    justify-content: space-between;
+  }
+
+  .resp {
+    display: block;
+    font-size: 1.5rem;
+  }
+}
