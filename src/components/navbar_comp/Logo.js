@@ -4,7 +4,9 @@ import image from './web-logo.png';
 
 function Logo() {
     return (
-        <a class="logo" href="/"><img src={image} alt="Logo"/></a>
+        <div className="logo">
+            <a href="/"><img src={image} alt="Logo"/></a>
+        </div>
     )
 }
 

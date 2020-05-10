@@ -17,14 +17,35 @@
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .nav-container {
-    padding: 1rem 2rem;
-    justify-content: space-between;
+    padding: 1rem 0rem;
+    display: block;
+    text-align: left;
+  }
+
+  .nav-container div:nth-child(3){
+    margin-top: 0.5rem;
+  }
+
+  .nav-item {
+    padding: 0.25rem 2rem;
+    display: block;
+  }
+
+  .nav-item:hover {
+    background-color: #dddddd;
   }
 
   .resp {
     display: block;
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
     font-size: 1.5rem;
+  }
+
+  .resp:hover {
+    cursor: pointer;
   }
 }

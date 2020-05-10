@@ -1,6 +1,10 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/navbar_comp/Navbar';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+
+library.add(faBars);
 
 function App() {
   return (
