@@ -1,0 +1,29 @@
+.logo {
+    margin-right: 40rem;
+    margin-bottom: -0.5rem;
+    transition: 0.3s ease;
+}
+
+img {
+    width: 175px;
+}
+
+@media (max-width: 1250px) {
+    .logo {
+        transition: 0.3s ease;
+        margin-right: 25rem;
+    }
+}
+
+@media (max-width: 976px) {
+    .logo {
+        transition: 0.3s ease;
+        margin-right: 10rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo {
+        display: none;
+    }
+}
