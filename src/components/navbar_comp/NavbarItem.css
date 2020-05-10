@@ -1,5 +1,5 @@
 .nav-item {
-    margin: 0 1.5rem;
+    margin: 0 2.5rem;
     font-weight: 300;
 }
 
@@ -8,8 +8,8 @@
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 960px) {
     .nav-item {
-        margin: 0;
+        margin: 0 1.5rem;
     }
 }
