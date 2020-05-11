@@ -8,19 +8,27 @@ img {
     width: 175px;
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1300px) {
     .logo {
         transition: 0.3s ease;
         margin-right: 25rem;
     }
 }
 
-@media (max-width: 976px) {
+@media (max-width: 1050px) {
+    .logo {
+        transition: 0.3s ease;
+        margin-right: 15rem;
+    }
+}
+
+@media (max-width: 850px) {
     .logo {
         transition: 0.3s ease;
         margin-right: 10rem;
     }
 }
+
 
 @media (max-width: 768px) {
     .logo {

@@ -6,9 +6,21 @@ class NavbarItem extends React.Component {
         super(props);
         this.handleLinkClick = this.handleLinkClick.bind(this);
     }
-    
+
     handleLinkClick() {
-        console.log(this.props.content + " clicked");
+        switch (this.props.content) {
+            case "Resume":
+                window.open('https://github.com/wangwillson1');
+                break;
+
+            case "GitHub":
+                window.open('https://github.com/wangwillson1');
+                break;
+
+            default:
+                window.open('https://linkedin.com/in/wangwillson1');
+                break;
+        }
     }
 
     render() {

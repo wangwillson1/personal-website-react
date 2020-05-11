@@ -1,8 +1,13 @@
 .nav-container {
-    padding: 1rem 10rem;
     background-color: #f8f9fa;
+    padding: 1rem 0;
     font-weight: 300;
     font-size: 1.2rem;
     display: flex;
     justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 500;
   }
+  

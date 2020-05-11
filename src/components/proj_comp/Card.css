@@ -1,0 +1,44 @@
+.card {
+    border-radius: 2px;
+    border: 1px solid grey;
+    padding: 1rem 2rem;
+    box-shadow: -1px 1px 4px grey;
+    margin-bottom: 2rem;
+}
+
+.card h2 {
+    margin: 0 0 0.25rem 0;
+    font-weight: 500;
+    font-size: 1.75rem;
+}
+
+.card h3 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.card h3.lang {
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    font-size: 1.15rem;
+}
+
+.card p {
+    margin: 1rem 0 0 0;
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+
+.underline {
+    display: inline-block;
+    border-bottom: 2px dotted grey;
+    transition: 0.2s ease
+}
+
+.underline:hover {
+    color: rgb(0, 127, 247);
+    border-bottom: 2px dotted white;
+    transition: 0.2s ease;
+    cursor: pointer;
+}

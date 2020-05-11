@@ -8,9 +8,9 @@ class Navbar extends React.Component {
         return (
             <div className="nav-container">
                 <Logo />
-                <NavbarItem content="Portfolio"/>
-                <NavbarItem content="Resume"/>
-                <NavbarItem content="Contact"/>
+                <NavbarItem content="Resume" />
+                <NavbarItem content="LinkedIn" />
+                <NavbarItem content="GitHub" />
             </div>
         )
     }
