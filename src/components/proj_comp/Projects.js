@@ -12,7 +12,7 @@ class Projects extends React.Component {
                     <h1>Projects</h1>
                     </Fade>
 
-                    <Fade>
+                    <Fade big>
                         <Card 
                             name="Personal Website"
                             languages="React.js, Node.js, HTML, CSS"
@@ -22,13 +22,13 @@ class Projects extends React.Component {
                         />
                         <Card 
                             name="Stratego"
-                            languages="C++"
+                            languages="C++, Bash"
                             date="December 2019"
                             github=""
                             summary='Implemented a modified version of the board game "Stratego" in C++.'
                         />
                         <Card 
-                            name="Stock Tracking and Automation"
+                            name="Stock Automation"
                             languages="Python"
                             date="October 2019"
                             github=""
@@ -36,7 +36,7 @@ class Projects extends React.Component {
                         />
                         <Card 
                             name="Voice Code"
-                            languages="Python"
+                            languages="Python, Google Cloud APIs"
                             date="September 2019"
                             github=""
                             summary='Developed program that allows users to code using their voice.'

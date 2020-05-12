@@ -1,6 +1,6 @@
 import React from 'react';
 import './Work.css';
-import Card from './Card';
+import WorkCard from './WorkCard';
 import Fade from 'react-reveal/Fade';
 
 class Work extends React.Component {
@@ -13,14 +13,14 @@ class Work extends React.Component {
                     </Fade>
 
                     <Fade>
-                        <Card 
+                        <WorkCard 
                             posn="Software Engineering Intern"
                             company="PointClickCare"
                             date="May 2020 - present"
                             github=""
                             summary='Please contact me for details.'
                         />
-                        <Card 
+                        <WorkCard 
                             posn="Front End Developer"
                             company="Purolator"
                             date="May 2019 - August 2019"

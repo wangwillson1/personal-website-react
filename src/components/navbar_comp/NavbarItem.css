@@ -1,10 +1,13 @@
 .nav-item {
     margin: 0 1.5rem;
     font-weight: 300;
+    color: rgb(80, 80, 80);
+    transition: 0.15s ease;
 }
 
 .nav-item:hover {
-    font-weight: 400;
+    transition: 0.15s ease;
+    color: rgb(5, 5, 5);
     cursor: pointer;
 }
 

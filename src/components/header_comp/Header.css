@@ -6,9 +6,9 @@
 
 .header p {
     font-weight: 300;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     padding: 0;
-    margin: 0.75rem 0 0 0;
+    margin: 0.5rem 0 0 0;
 }
 
 .header p.large {
@@ -26,4 +26,10 @@ b {
     border: 5px solid white;
     border-radius: 50%;
     margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .header p {
+        margin: 0.25rem 0 0 0;
+    }
 }

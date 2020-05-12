@@ -5,6 +5,7 @@ import Header from './components/header_comp/Header';
 import About from './components/about_comp/About';
 import Work from './components/work_comp/Work';
 import Projects from './components/proj_comp/Projects';
+import Connect from './components/connect_comp/Connect';
 
 function App() {
   return (
@@ -14,11 +15,7 @@ function App() {
       <About />
       <Work />
       <Projects />
-      <header className="App-header">
-        <p>
-          Success.
-        </p>
-      </header>
+      <Connect />
     </div>
   );
 }

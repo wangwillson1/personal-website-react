@@ -1,14 +1,14 @@
-.about {
+.connect {
     display: flex;
     justify-content: center;
 }
 
-.about-contents {
+.connect-contents {
     text-align: left;
     width: 73.5rem;
 }
 
-.about-contents p {
+.connect-contents p {
     font-weight: 300;
     font-size: 1.25rem;
 }
@@ -19,37 +19,37 @@ h1 {
 }
 
 @media (max-width: 1300px) {
-    .about-contents {
+    .connect-contents {
         transition: 0.3s ease;
         width: 58.5rem;
     }
 }
 
 @media (max-width: 1050px) {
-    .about-contents {
+    .connect-contents {
         transition: 0.3s ease;
         width: 48.5rem;
     }
 
-    .about-contents p {
+    .connect-contents p {
         font-size: 1.2rem;
     }
 }
 
 @media (max-width: 850px) {
-    .about-contents {
+    .connect-contents {
         transition: 0.3s ease;
         padding: 0 2rem;
         width: 100%;
     }
     
-    .about-contents p {
+    .connect-contents p {
         font-size: 1.17rem;
     }
 }
 
 @media (max-width: 768px) {
-    .about-contents {
+    .connect-contents {
         text-align: center;
         width: 100%
     }
