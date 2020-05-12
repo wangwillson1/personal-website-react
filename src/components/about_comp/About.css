@@ -18,6 +18,20 @@ h1 {
     font-weight: 400;
 }
 
+.about-contents a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px dotted grey;
+    transition: 0.2s ease;
+}
+
+.about-contents a:hover {
+    text-decoration: none;
+    color: rgb(0, 127, 247);
+    border-bottom: 2px dotted transparent;
+    transition: 0.2s ease;
+}
+
 @media (max-width: 1300px) {
     .about-contents {
         transition: 0.3s ease;

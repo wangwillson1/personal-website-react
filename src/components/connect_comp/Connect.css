@@ -4,53 +4,49 @@
 }
 
 .connect-contents {
-    text-align: left;
-    width: 73.5rem;
+    text-align: center;
+    font-size: 3rem;
+    margin: 2rem 0;
 }
 
-.connect-contents p {
-    font-weight: 300;
-    font-size: 1.25rem;
+.connect-contents a {
+    margin: 1rem 3rem;
 }
 
-h1 {
-    font-size: 2.25rem;
-    font-weight: 400;
+.email {
+    transition: 0.2s ease;
+    color: #d44638;
 }
 
-@media (max-width: 1300px) {
-    .connect-contents {
-        transition: 0.3s ease;
-        width: 58.5rem;
-    }
+.linkedin {
+    transition: 0.2s ease;
+    color: #0077B5;
 }
 
-@media (max-width: 1050px) {
-    .connect-contents {
-        transition: 0.3s ease;
-        width: 48.5rem;
-    }
-
-    .connect-contents p {
-        font-size: 1.2rem;
-    }
+.github {
+    transition: 0.2s ease;
+    color: #6e5494;
 }
 
-@media (max-width: 850px) {
-    .connect-contents {
-        transition: 0.3s ease;
-        padding: 0 2rem;
-        width: 100%;
-    }
-    
-    .connect-contents p {
-        font-size: 1.17rem;
-    }
+.email:hover {
+    transition: 0.2s ease;
+    color: rgb(241, 182, 177);
 }
 
-@media (max-width: 768px) {
-    .connect-contents {
-        text-align: center;
-        width: 100%
+.linkedin:hover {
+    transition: 0.2s ease;
+    color: rgb(141, 198, 230);
+}
+
+.github:hover {
+    transition: 0.2s ease;
+    color: #C9BEDA;
+}
+
+
+@media (max-width: 576px) {
+    .connect-contents a {
+        font-size: 2.75rem;
+        margin: 1rem 2rem;
     }
 }

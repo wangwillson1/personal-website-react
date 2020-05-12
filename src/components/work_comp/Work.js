@@ -9,7 +9,7 @@ class Work extends React.Component {
             <div className="work">
                 <div className="work-contents">
                     <Fade>
-                    <h1>Work Experience</h1>
+                    <h1>Work Experience <span role="img" aria-label="suitcase emoji">💼</span></h1>
                     </Fade>
 
                     <Fade>
@@ -18,14 +18,15 @@ class Work extends React.Component {
                             company="PointClickCare"
                             date="May 2020 - present"
                             github=""
-                            summary='Please contact me for details.'
+                            summary="Feel free to contact me for details about this internship!"
                         />
                         <WorkCard 
                             posn="Front End Developer"
                             company="Purolator"
                             date="May 2019 - August 2019"
                             github=""
-                            summary='Responsible for development and changes of the main website, www.purolator.com, using HTML, CSS, Bootstrap, and Javascript'
+                            summary='I developed and shipped the redesigned "Find a Location," "Track a Shipment," and "Rate/Zone Guides" website applications, as well as the Purolator Tackle Hunger microsite. 
+                                        Additionally, I implemented JS algorithms to enhance the tracking capabilities of Google Analytics.'
                         />
                     </Fade>
                 </div>

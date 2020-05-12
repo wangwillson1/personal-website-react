@@ -9,44 +9,37 @@ class Projects extends React.Component {
             <div className="projects">
                 <div className="projects-contents">
                     <Fade>
-                    <h1>Projects</h1>
+                    <h1>Projects <span role="img" aria-label="laptop-emoji">💻</span></h1>
                     </Fade>
 
                     <Fade big>
                         <Card 
                             name="Personal Website"
                             languages="React.js, Node.js, HTML, CSS"
-                            date="December 2019"
-                            github=""
-                            summary='Implemented a modified version of the board game "Stratego" in C++.'
-                        />
-                        <Card 
-                            name="Stratego"
-                            languages="C++, Bash"
-                            date="December 2019"
-                            github=""
-                            summary='Implemented a modified version of the board game "Stratego" in C++.'
+                            date="May 2020"
+                            url="https://github.com/wangwillson1/personal-website-react"
+                            summary="This website was designed and developed by myself using React, Node, and HTML/CSS. I'm currently working to incorporate MongoDB into the site as well!"
                         />
                         <Card 
                             name="Stock Automation"
-                            languages="Python"
+                            languages="Python, Twilio API"
                             date="October 2019"
-                            github=""
-                            summary='Built a web scraper using Python to track daily stock prices.'
+                            url="https://github.com/wangwillson1/stock-scraper"
+                            summary='I developed a Python program that automates the monitoring of fluctuations in the stock market. I used BeautifulSoup to build a web scraper and integrated the Twilio API to send SMS messages to the user when stock values fluctuated by a user-determined percentage.'
                         />
                         <Card 
                             name="Voice Code"
                             languages="Python, Google Cloud APIs"
                             date="September 2019"
-                            github=""
-                            summary='Developed program that allows users to code using their voice.'
+                            url="https://github.com/dingdavid555/voice-code"
+                            summary="For Hack the North 2019, I developed a Python program that allows users to code with their voice. Leveraging the Google Speech API, the application transcribes phrases like 'print Hello World' to its corresponding Python code."
                         />
                         <Card 
                             name="User Detection System"
                             languages="C++, Arduino"
                             date="June 2019"
-                            github=""
-                            summary='Built and developed an Arduino-controlled automation system that can determine the number of occupants in a room.'
+                            url="https://devpost.com/software/campus-heating-automation"
+                            summary='For UW Energy Hacks 2019, I built and developed an Arduino-controlled automation system that can determine the number of occupants in a room. The Arduino system uses infrared break-beam lasers to automate user detection.'
                         />
                     </Fade>
                 </div>

@@ -11,6 +11,10 @@
     cursor: pointer;
 }
 
+.nav-item {
+    text-decoration: none;
+}
+
 @media (max-width: 960px) {
     .nav-item {
         margin: 0 1.5rem;
