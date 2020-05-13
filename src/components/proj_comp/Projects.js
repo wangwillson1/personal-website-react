@@ -9,7 +9,7 @@ class Projects extends React.Component {
             <div className="projects">
                 <div className="projects-contents">
                     <Fade>
-                    <h1>Projects <span role="img" aria-label="laptop-emoji">💻</span></h1>
+                    <h1>Projects &nbsp;<span role="img" aria-label="laptop-emoji">💻</span></h1>
                     </Fade>
 
                     <Fade big>
@@ -35,7 +35,7 @@ class Projects extends React.Component {
                             summary="For Hack the North 2019, I developed a Python program that allows users to code with their voice. Leveraging the Google Speech API, the application transcribes phrases like 'print Hello World' to its corresponding Python code."
                         />
                         <Card 
-                            name="User Detection System"
+                            name="User Detection"
                             languages="C++, Arduino"
                             date="June 2019"
                             url="https://devpost.com/software/campus-heating-automation"
