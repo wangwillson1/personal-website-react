@@ -50,6 +50,11 @@
     cursor: pointer;
 }
 
+.work-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .work-card a:visited {
     text-decoration: none;
     color: inherit;
