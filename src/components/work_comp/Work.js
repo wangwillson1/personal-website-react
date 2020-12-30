@@ -15,10 +15,17 @@ class Work extends React.Component {
                     <Fade>
                         <WorkCard 
                             posn="Software Engineering Intern"
-                            company="PointClickCare"
-                            date="May 2020 - present"
-                            url="https://pointclickcare.com/"
+                            company="Geotab"
+                            date="January 2021 - present"
+                            url="https://www.geotab.com"
                             summary="Feel free to contact me for details about this internship!"
+                        />
+                        <WorkCard 
+                            posn="Software Engineering Intern"
+                            company="PointClickCare"
+                            date="May 2020 - August 2020"
+                            url="https://pointclickcare.com/"
+                            summary="I contributed to the development of the Infection Prevention and Control application which helps LTC homes manage infectious disease outbreaks."
                         />
                         <WorkCard 
                             posn="Front End Developer"

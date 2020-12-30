@@ -14,6 +14,13 @@ class Projects extends React.Component {
 
                     <Fade big>
                         <Card 
+                            name="Insights Extraction"
+                            languages="Python, Flask, GCP, Azure"
+                            date="August 2020"
+                            url="https://github.com/mihirKachroo/HackThe6ix"
+                            summary="I worked with a team to create an application that uses entity recognition and sentimental analysis to extract key insights from insurance claims. The project won the Intact Insurance Hacker Challenge at Hack The 6ix 2020!"
+                        />
+                        <Card 
                             name="Personal Website"
                             languages="React.js, Node.js, HTML, CSS"
                             date="May 2020"
