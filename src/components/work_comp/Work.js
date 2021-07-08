@@ -16,9 +16,9 @@ class Work extends React.Component {
                         <WorkCard 
                             posn="Software Engineering Intern"
                             company="Geotab"
-                            date="January 2021 - present"
+                            date="January 2021 - April 2021"
                             url="https://www.geotab.com"
-                            summary="Feel free to contact me for details about this internship!"
+                            summary="I contributed to the development of the SmartChargeRewards application which helps electric vehicle owners reduce their load on the electric grid."
                         />
                         <WorkCard 
                             posn="Software Engineering Intern"
