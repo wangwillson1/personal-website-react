@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/personal-website-react/static/css/main.2b2dfc8a.chunk.css",
+    "main.js": "/personal-website-react/static/js/main.c1845cb9.chunk.js",
+    "main.js.map": "/personal-website-react/static/js/main.c1845cb9.chunk.js.map",
+    "runtime-main.js": "/personal-website-react/static/js/runtime-main.8ad945ce.js",
+    "runtime-main.js.map": "/personal-website-react/static/js/runtime-main.8ad945ce.js.map",
+    "static/js/2.ef9ce18a.chunk.js": "/personal-website-react/static/js/2.ef9ce18a.chunk.js",
+    "static/js/2.ef9ce18a.chunk.js.map": "/personal-website-react/static/js/2.ef9ce18a.chunk.js.map",
+    "index.html": "/personal-website-react/index.html",
+    "static/css/main.2b2dfc8a.chunk.css.map": "/personal-website-react/static/css/main.2b2dfc8a.chunk.css.map",
+    "static/js/2.ef9ce18a.chunk.js.LICENSE.txt": "/personal-website-react/static/js/2.ef9ce18a.chunk.js.LICENSE.txt",
+    "static/media/face-crop.3ab968d7.jpg": "/personal-website-react/static/media/face-crop.3ab968d7.jpg",
+    "static/media/web-logo.f7f52cbc.png": "/personal-website-react/static/media/web-logo.f7f52cbc.png",
+    "static/media/willsonw-resume.f5e080fa.pdf": "/personal-website-react/static/media/willsonw-resume.f5e080fa.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ad945ce.js",
+    "static/js/2.ef9ce18a.chunk.js",
+    "static/css/main.2b2dfc8a.chunk.css",
+    "static/js/main.c1845cb9.chunk.js"
+  ]
+}
