@@ -14,6 +14,13 @@ class Work extends React.Component {
 
                     <Fade>
                         <WorkCard 
+                            posn="Software Engineer Intern"
+                            company="Wish"
+                            date="September 2021 - December 2021"
+                            url="https://www.wish.com"
+                            summary="I contributed to the video transcoding microservice which powers features on the Wish Marketplace, like Wish Clips and 1Sansome. I also handled some cloud engineering tasks, like using Kubernetes to enable horizontal pod autoscaling."
+                        />
+                        <WorkCard 
                             posn="Software Engineering Intern"
                             company="Geotab"
                             date="January 2021 - April 2021"
