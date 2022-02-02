@@ -2,6 +2,7 @@
     padding-top: 3rem;
     padding-bottom: 3rem;
     background-color: #daf6ff;
+    max-height: 17rem;
 }
 
 .header p {
@@ -29,6 +30,10 @@ b {
 }
 
 @media (max-width: 768px) {
+    .header {
+        max-height: 16.9rem;
+    }
+
     .header p {
         margin: 0.25rem 0 0 0;
     }
