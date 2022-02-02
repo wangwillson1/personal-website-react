@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import image from './face-crop.jpg';
+import image from './me.jpg';
 import Typical from 'react-typical';
 
 class Header extends React.Component {
