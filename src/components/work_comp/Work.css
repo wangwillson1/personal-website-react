@@ -6,6 +6,7 @@
 .work-contents {
     text-align: left;
     width: 73.5rem;
+    transition: 0.3s ease;
 }
 
 h1 {
@@ -38,6 +39,6 @@ h1 {
 @media (max-width: 768px) {
     .work-contents {
         text-align: center;
-        width: 100%
+        width: 100%;
     }
 }

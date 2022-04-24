@@ -7,6 +7,7 @@
 .projects-contents {
     text-align: left;
     width: 73.5rem;
+    transition: 0.3s ease;
 }
 
 h1 {
