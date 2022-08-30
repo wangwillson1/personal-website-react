@@ -13,12 +13,19 @@ class Work extends React.Component {
                     </Fade>
 
                     <Fade>
+                    <WorkCard 
+                            posn="Software Engineering Intern"
+                            company="Meta"
+                            date="May 2022 - August 2022"
+                            url="https://www.meta.com"
+                            summary="I built a framework which can automatically identify and deprecate unnecessary enforcement checks on Facebook Marketplace, and orchestrate deprecation experiments for different types of enforcement rules."
+                        />
                         <WorkCard 
-                            posn="Software Engineer Intern"
+                            posn="Software Engineering Intern"
                             company="Wish"
                             date="September 2021 - December 2021"
                             url="https://www.wish.com"
-                            summary="I contributed to the video transcoding microservice which powers features on the Wish Marketplace, like Wish Clips and 1Sansome. I also handled some cloud engineering tasks, like using Kubernetes to enable horizontal pod autoscaling."
+                            summary="I contributed to the video transcoding microservice which powers features on the Wish Marketplace, like Wish Clips and 1Sansome. I also handled some cloud engineering tasks, like enabling horizontal pod autoscaling on Kubernetes."
                         />
                         <WorkCard 
                             posn="Software Engineering Intern"
@@ -35,7 +42,7 @@ class Work extends React.Component {
                             summary="I contributed to the development of the Infection Prevention and Control application which helps LTC homes manage infectious disease outbreaks."
                         />
                         <WorkCard 
-                            posn="Front End Developer"
+                            posn="Front End Developer Intern"
                             company="Purolator"
                             date="May 2019 - August 2019"
                             url="https://purolator.com/"
